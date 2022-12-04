@@ -1,17 +1,58 @@
-  body{
-    background-color:powderblue;
-  }
-  h1{
-    color:#
-    067242 ;
-  }
-  h3{
-    color:#067242;
-  }
-  hr{
-    border-style: none;
-    border-top-style:dotted;
-    border-color: grey;
-    border-width: 5px;
-    width: 5%;
-  }
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #95a3ac;
+    height: ;
+
+    border:10px solid#30208a;
+}
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.top_section{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between ;
+    align-items: flex-end;
+}
+.top_section h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #1d1d1d;
+    text-transform: uppercase;
+}
+.top_section h3{
+    text-align: end;
+    font-size: 30px;
+}
+.image_container,
+ img{
+    border-radius: 15%;
+    overflow: hidden;    
+}
+.image_container,
+img{
+width: 250px;
+height: 300px;
+}
+.about_section h2 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.about_section p{
+    font-size: 20px;
+    font-weight: 200;
+    margin bottom: 20px;
+    letter-spacing: 1.2px;
+}
+.missiles_section h3{
+    font-size: large;
+    font-weight: 200;
+}
